@@ -1,10 +1,7 @@
-# sadmin
-Sample Admin Template using Laravel, Breeze, Spatie, Tailwind Css (Dashboard Template) Intended to eliminate repititive tasks of creating admin with user, role & permission and some basic configurations to enable fast development of Laravel web apps.
-
 ### Steps to Run After Cloning
 
-1. **Duplicate the `.env.example` File**  
-   In the project root directory, create a copy of the `.env.example` file and rename it to `.env`.
+1. **Rename the `.env.example` File**  
+   In the project root directory, `.env.example` file and rename it to `.env`.
 
 2. **Configure Database Settings**  
    Open the newly created `.env` file and update the database configuration with your preferred settings. For example:
@@ -12,7 +9,7 @@ Sample Admin Template using Laravel, Breeze, Spatie, Tailwind Css (Dashboard Tem
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=sadmin
+   DB_DATABASE=laravel
    DB_USERNAME=root
    DB_PASSWORD=
    ```
@@ -61,17 +58,3 @@ Sample Admin Template using Laravel, Breeze, Spatie, Tailwind Css (Dashboard Tem
    password
    ```
    (optional) you can use /admin to explore the integrated prebuilt Tailwind Dashboard and its components
-
-
-## Watch the Setup Video
-
-Check out the setup video for the **"sadmin"** template here:
-
-[![Watch the video](https://img.youtube.com/vi/tged_ZWdS44/hqdefault.jpg)](https://youtu.be/tged_ZWdS44?si=vkpU-XDNEz_rH4b-)
-
-## Useful Links
-
-- **Laravel and Breeze**: [Laravel Starter Kits - Breeze and Blade](https://laravel.com/docs/11.x/starter-kits#breeze-and-blade)
-- **Spatie**: [Spatie Laravel Permission Installation](https://spatie.be/docs/laravel-permission/v6/installation-laravel)
-- **Tailwind CSS**: [Tailwind CSS Laravel Installation](https://tailwindcss.com/docs/guides/laravel)
-- **Tailwind Dashboard Template**: [Tailwind Dashboard Template Source](https://www.tailwindawesome.com/resources/dashboard-template)
